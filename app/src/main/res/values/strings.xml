@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="translator_name"></string>
+    <string name="translator_name">mukko</string>
 
     <string name="app_name">Nekonium</string>
 
