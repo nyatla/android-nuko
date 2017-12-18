@@ -18,7 +18,6 @@
     <string name="drawer_import">ウォレットインポート</string>
     <string name="drawer_about">私達について</string>
     <string name="drawer_donate">寄付する</string>
-    <string name="fr_not_supported">Price chart currently not supported, can be available in the future when nekonium reaches better exchange</string>
     <string name="fr_not_supported">チャートは現在サポートしていません。将来Nekoniumが取引されるようになったら使えるようになるでしょう</string>
     <string name="fr_price_current_price">現在価格</string>
     <string name="fr_wallet_overall_balance">全体の残高</string>
@@ -32,8 +31,8 @@
 
     <string name="pref_header_general">一般</string>
 
-    <string name="pref_title_social_recommendations">Show zero amount transactions</string>
-    <string name="pref_description_social_recommendations">Whether to hide contract calls without any NUKO amount or not</string>
+    <string name="pref_title_social_recommendations">取引量0を表示</string>
+    <string name="pref_description_social_recommendations">Nukoがない時コントラクトを隠すかどうか</string>
 
 
     <string name="pref_title_start">デフォルトタブのフォレット</string>
@@ -106,7 +105,7 @@
 
     <string name="wallet_gen_service_title">新しいウォレットを作成</string>
     <string name="wallet_gen_service_title_import">ウォレットをインポート</string>
-    <string name="choose_recipient_enterscan">受信者アドレスの入力 / スキャン</string>
+    <string name="choose_recipient_enterscan">受信アドレスの入力 / スキャン</string>
     <string name="choose_recipient_contacts">Or Choose Recipient from Address Book</string>
 
     <string name="choose_your_address">送信元</string>
@@ -118,8 +117,8 @@
     <string name="request_activity_ether">要求量</string>
     <string name="request_activity_to">あなたのウォレット / アドレス</string>
 
-    <string name="no_tx_history">This is the transaction overview showing all nuko sent and received to and from other people. After adding a wallet and transferring some nuko to it, the transaction and all future transactions will be displayed here.</string>
-    <string name="no_wallet_history">You currently do not have any wallets. You can easily create or import one using the button below.</string>
+    <string name="no_tx_history">これは送受信された全てのNukoの取引の概要を表示しています．ウォレットを追加してNukoを転送後、その取引と今後すべての取引がここに表示されます</string>
+    <string name="no_wallet_history">あなたは現在ウォレットを持っていません。下のボタンを使用して簡単に作成するかインポートすることができます</string>
 
 
     <string name="app_intro_text">Nekoniumウォレットにようこそ！フリーでオープンソースのAndroid用ウォレットです :3</string>
@@ -152,12 +151,12 @@
     <string name="wallet_suc_exported">ウォレットのエクスポートが成功しました</string>
     <string name="wallet_no_permission">ウォレットのエクスポートのための許可を与えてください</string>
     <string name="wallet_one_at_a_time">そんなに早くないです</string>
-    <string name="wallet_one_at_a_time_text">We are currently generating a wallet for you, you can see the progress in your notification bar. Don\'t worry, we will notify you as soon as your wallet generation is finished :-) If you really wish to generate another one please wait for the current wallet to be completed first.</string>
+    <string name="wallet_one_at_a_time_text">通知バーでウォレットを作成の進捗状況をみることができます。心配しないで、ウォレットの作成が終わったら通知します :-)。別のウォレットを作成したい場合は、現在のウォレット作成が完了するまでお待ち下さい</string>
     <string name="button_ok">OK</string>
     <string name="wallet_removal_title">注意: ウォレットの削除</string>
     <string name="wallet_removal_sure">ウォッチ専用ウォレットを削除してもよろしいですか？</string>
-    <string name="wallet_removal_privkey">! THIS IS A WALLET WITH A PRIVATE KEY ! IF YOU HAVE NO BACKUP AND CONTINUE ALL YOUR NUKO ON THAT WALLET WILL BE LOST FOR EVER! ARE YOU SURE YOU WANT TO PROCEED? WALLET ADDRESS:</string>
-    <string name="wallet_removal_last_warning">ARE YOU SURE? WALLET AND ALL COINS / TOKEN ON IT ARE GOING TO GET PERMANENTLY REMOVED. THIS IS THE LAST WARNING FOR WALLET:</string>
+    <string name="wallet_removal_privkey">！これはプライベートキー付きのウォレットです！バックアップせずNukoを使用しつづけた場合、ウォレットが失われることがあります。それでも進めますか？ウォレットアドレス:</string>
+    <string name="wallet_removal_last_warning">本当ですか？ウォレットと全ての通貨/トークンは永久に削除されます。これは最後の警告です:</string>
     <string name="button_yes">はい</string>
     <string name="button_no">いいえ</string>
     <string name="name_your_wallet">ウォレットの名前</string>
@@ -165,7 +164,7 @@
     <string name="name_other_address">その他のアドレス名</string>
     <string name="trans_menu_title">取引設定</string>
     <string name="trans_menu_changename">アドレス名の変更</string>
-    <string name="trans_menu_viewreceiver">View Receiver Address</string>
+    <string name="trans_menu_viewreceiver">受信アドレスを表示する</string>
     <string name="trans_menu_openinb">ブラウザで開く</string>
     <string name="trans_no_trans_found">このアドレスでの取引がありません</string>
     <string name="err_send_not_enough_ether">Nukoが不足しています</string>
@@ -173,7 +172,7 @@
     <string name="err_send_noreceiver">受信者が指定されていないです</string>
     <string name="err_send_noamount">額が指定されいていないです</string>
     <string name="name_your_address">あなたのアドレス名</string>
-    <string name="name_this_address">このアドレス名s</string>
+    <string name="name_this_address">このアドレス名</string>
     <string name="addressbook_menu_title">アドレス帳設定</string>
     <string name="addressbook_menu_remove">削除</string>
     <string name="import_title">ウォレットのインポート</string>
@@ -207,16 +206,16 @@
     <string name="notification_click_to_view">ビューを見る</string>
     <string name="ether_and_token">Nukoとトークン</string>
     <string name="prefs_lock_with_pw">パスワードロック</string>
-    <string name="prefs_lock_with_pw_sum">If enabled Nuko will ask you for a password before launching the app</string>
+    <string name="prefs_lock_with_pw_sum">有効にすると、アプリ起動前にパスワードを尋ねます</string>
     <string name="prefs_set_pw">パスワードを設定してください</string>
-    <string name="prefs_set_pw_sum">Specify your login pattern</string>
+    <string name="prefs_set_pw_sum">ログインパターンを指定する</string>
     <string name="prefs_cat_security">セキュリティ</string>
     <string name="fab_sendether_from">Nuko送信元</string>
     <string name="fab_sendether_to">Nuko送信先</string>
     <string name="open_in_browser">ブラウザで開く</string>
     <string name="tx_cost">TX Cost</string>
-    <string name="gas_used">Gas使用済</string>
-    <string name="gas_price">Gas料金</string>
+    <string name="gas_used">Gas used</string>
+    <string name="gas_price">Gas cost</string>
     <string name="nonce">Nonce</string>
     <string name="block_height">Block Height</string>
     <string name="timestamp">Timestamp</string>
@@ -232,7 +231,7 @@
     <string name="gas_limit">Gas Limit:</string>
     <string name="optional_data_as_hex">Optional data as hex</string>
     <string name="data">Data:</string>
-    <string name="send_expert_warning">You can add extra data to send along with your transaction. If you don\'t know what this is then don\'t touch it or bad things may happen!</string>
+    <string name="send_expert_warning">取引とともに送るためのデータを追加することができます。何も知らないなら触らないでください。悪いことが起こるかもしれません！</string>
     <string name="expert_mode_optional">上級者モード (任意)</string>
     <string name="transaction_failed">取引失敗</string>
     <string name="reddit">Lunary Subreddit</string>
@@ -244,7 +243,7 @@
     <string name="password_in_clear_text">クリアテキストでパスワードを表示する</string>
 
     <string name="dialog_write_down_pw_title">重要！</string>
-    <string name="dialog_write_down_pw_text">We will encrypt your Wallet with the password your provided to keep your Nuko safe. Your password is literally the only way to unlock your wallet and spend your Nuko, so make sure you dont forget it! We suggest to write it down on a piece of paper.</string>
+    <string name="dialog_write_down_pw_text">Nukoの安全を保つため、お客様のウォレットにパスワードを入力して暗号化します。パスワードはウォレットのロックを解除してNukoを使用する唯一の方法なので，忘れないようにしてください！紙に書くことをおすすめします</string>
     <string name="dialog_back_button">キャンセル</string>
     <string name="setting_show_ad">Display Ads</string>
 
@@ -252,8 +251,8 @@
     <string name="dialog_disable_ad_text">We depend heavily on donations and ad revenue to actively work and improve Lunary. If the ad really bothers you that much thats fine, we understand that and we will let you disable it. But if it isnt too much to ask we would like to change your mind to keep Nekonium getting better and better. This small ad banner really helps us, same goes for every donation we receive. Please keep the banner enabled or consider a small donation. You need to restart the app for your new setting to take affect. Continue?</string>
 
     <string name="showcase_got_it">GOT IT</string>
-    <string name="show_case_wallet_gen_text">To generate a new wallet just press on the + and select "Generate New Wallet"</string>
-    <string name="show_case_backup">To modify existing wallets or create a backup just press and hold down on the wallet.</string>
+    <string name="show_case_wallet_gen_text">ウォレットを作成するなら＋ボタンを押して”ウォレットの作成”を選択してください</string>
+    <string name="show_case_backup">既存のウォレットを変更するか，バックアップを作成するにはウォレットを押したままにします</string>
 
     <string name="tos" tools:ignore="TypographyOther"><![CDATA[
 <p><h2>GNU GENERAL PUBLIC LICENSE V3</h2></p>
