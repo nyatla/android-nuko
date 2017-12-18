@@ -6,14 +6,14 @@
     <string name="action_settings">設定</string>
     <string name="title_activity_main">Nekonium</string>
 
-    <string name="fab_scan">アドレス/キー読み込み</string>
-    <string name="fab_add_watch">Lookup Address</string>
+    <string name="fab_scan">アドレス/キーの読み込み</string>
+    <string name="fab_add_watch">アドレスの参照</string>
     <string name="fab_add_aswatch">ウォッチのみのウォレットとして追加</string>
     <string name="fab_gen_new">新しいウォレットを作成する</string>
     <string name="fab_request">リクエスト</string>
     <string name="fab_send">送信</string>
     <string name="fr_community">コミュニティへのリンク</string>
-    <string name="fab_sendether">Nuko送信</string>
+    <string name="fab_sendether">Nukoの送信</string>
     <string name="fab_setwalletname">ウォレット名設定</string>
     <string name="drawer_import">ウォレットインポート</string>
     <string name="drawer_about">私達について</string>
@@ -84,7 +84,7 @@
     <string name="pref_header_notifications">通知</string>
 
     <string name="pref_title_new_message_notifications"取引収入</string>
-    <string name="pref_title_new_message_notifications_sum">あなたのウォレットへ収入があったとき通知する</string>
+    <string name="pref_title_new_message_notifications_sum">ウォレットへ収入があったとき通知する</string>
 
     <string name="pref_title_ringtone">着信音</string>
     <string name="pref_ringtone_silent">ミュート</string>
@@ -97,7 +97,7 @@
     <string name="action_sign_in">作成</string>
 
     <string name="error_invalid_password">パスワードが短すぎます（9文字以上）</string>
-    <string name="error_incorrect_password">パスワードが合っていません</string>
+    <string name="error_incorrect_password">パスワードが違います</string>
 
     <string name="generate_text">You are about to generate a new and encrypted offline wallet on this device. We recommend choosing a strong password in order to be able to ensure the best security possible for your funds. Please note that generating a strong and secure wallet is a highly compute-intensive task that can take up to several minutes! This process will be performed in the background so you can still use your phone as you usually would in the meantime. The progress is displayed in the notification bar of your device and as soon as we have finished generating your wallet, we will let you know.</string>
 
@@ -106,11 +106,11 @@
     <string name="wallet_gen_service_title">新しいウォレットを作成</string>
     <string name="wallet_gen_service_title_import">ウォレットをインポート</string>
     <string name="choose_recipient_enterscan">受信アドレスの入力 / スキャン</string>
-    <string name="choose_recipient_contacts">Or Choose Recipient from Address Book</string>
+    <string name="choose_recipient_contacts">アドレスブックから選択する</string>
 
     <string name="choose_your_address">送信元</string>
     <string name="send_to">送信先</string>
-    <string name="choose_ether_amount">利用できるNuko</string>
+    <string name="choose_ether_amount">利用可能なNuko</string>
     <string name="choose_gas">取引コスト</string>
 
 
@@ -257,8 +257,8 @@
     <string name="tos" tools:ignore="TypographyOther"><![CDATA[
 <p><h2>GNU GENERAL PUBLIC LICENSE V3</h2></p>
    <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">https://www.gnu.org/licenses/gpl-3.0.en.html</a>
-    <h3>This is a test version, please DO NOT import your main or valuable wallets.</h3>
-    <h3>Please DO NOT transfer large amount of Nuko into mobile wallet, for testing purpose, &lt;10 Nuko is enough. </h3>
+    <h3>これはテスト段階です。多量の残高があるアカウントをモバイルウォレットにインポートをしないでください。</h3>
+    <h3>多量のNUKOをモバイルウォレットに置かないでください。</h3>
 ]]></string>
     <string name="title_activity_splash">SplashActivity</string>
 
