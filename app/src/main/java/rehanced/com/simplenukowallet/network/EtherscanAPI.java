@@ -91,14 +91,14 @@ public class EtherscanAPI {
                 tx_string += tx + ",";
             };
             tx_string  = tx_string.substring(0, tx_string.length() - 1);//remove last comma ,
-            String url = "http://52.77.216.165/nekonium-api/getmultitxinfo?tx="+tx_string +"&nonce="+ UniqueNonceGetter.getInstance().getNonce();
+            String url = "http://mobilewalletapi1.nekonium.org/nekonium-api/getmultitxinfo?tx="+tx_string +"&nonce="+ UniqueNonceGetter.getInstance().getNonce();
             Log.d("get",url);
             get(url, b);
         }
         else{
           // String url = "http://52.77.216.165/nekonium-api/gettx?address=" + address +"&nonce=" + UniqueNonceGetter.getInstance().getNonce();
             b.onResponse(null, new Response.Builder().code(200).message("").request(new Request.Builder()
-                    .url("http://52.77.216.165/nekonium-api/gettx?address=" + address +"&nonce=1")
+                    .url("http://mobilewalletapi1.nekonium.org/nekonium-api/gettx?address=" + address +"&nonce=1")
                     .build()).protocol(Protocol.HTTP_1_0).body(ResponseBody.create(MediaType.parse("JSON"),"")).build());
             return;
            // Log.d("get",url);
@@ -191,7 +191,7 @@ public class EtherscanAPI {
 
 
     public void getBalance(String address, Callback b) throws IOException {
-        String url = "http://52.77.216.165/nekonium-api/getbalance?address=" + address +"&nonce=" + UniqueNonceGetter.getInstance().getNonce();
+        String url = "http://mobilewalletapi1.nekonium.org/nekonium-api/getbalance?address=" + address +"&nonce=" + UniqueNonceGetter.getInstance().getNonce();
         Log.d("get",url);
         get(url, b);
 /*
@@ -215,7 +215,7 @@ public class EtherscanAPI {
 
 
     public void getNonceForAddress(String address, Callback b) throws IOException {
-        String url = "http://52.77.216.165/nekonium-api/gettxcount?address=" + address +"&nonce="+UniqueNonceGetter.getInstance().getNonce();
+        String url = "http://mobilewalletapi1.nekonium.org/nekonium-api/gettxcount?address=" + address +"&nonce="+UniqueNonceGetter.getInstance().getNonce();
         Log.d("get",url);
         get(url, b);
     }
@@ -228,7 +228,7 @@ public class EtherscanAPI {
 
     public void getBalances(ArrayList<StorableWallet> addresses, Callback b) throws IOException {
 
-        String url = "http://52.77.216.165/nekonium-api/getmultibalance?address=";
+        String url = "http://mobilewalletapi1.nekonium.org/nekonium-api/getmultibalance?address=";
 
         String addr = "";
         for (StorableWallet address : addresses) {
@@ -257,7 +257,7 @@ public class EtherscanAPI {
 
 
     public void forwardTransaction(String raw, Callback b) throws IOException {
-        String url = "http://52.77.216.165/nekonium-api/sendtx?hex=" + raw +"&nonce="+ UniqueNonceGetter.getInstance().getNonce();
+        String url = "http://mobilewalletapi1.nekonium.org/nekonium-api/sendtx?hex=" + raw +"&nonce="+ UniqueNonceGetter.getInstance().getNonce();
         Log.d("get",url );
         get(url, b);
 

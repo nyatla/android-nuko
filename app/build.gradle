@@ -7,8 +7,8 @@ android {
     buildToolsVersion '26.0.2'
     flavorDimensions "default"
     defaultConfig {
-        applicationId "org.nekonium.android-nuko"
-        minSdkVersion 16
+        applicationId "org.nekonium.androidnuko"
+        minSdkVersion 19
         targetSdkVersion 25
         versionCode 25
         versionName "1.34"

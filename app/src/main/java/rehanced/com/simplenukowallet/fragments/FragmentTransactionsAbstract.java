@@ -216,7 +216,7 @@ public abstract class FragmentTransactionsAbstract extends Fragment implements V
                 break;
             }
             case 102: { // Open in Browser
-                String url = "http://explorer.nekonium.org/tx/" + wallets.get(position).getTxHash();
+                String url = "http://nekonium.network/tx/" + wallets.get(position).getTxHash();
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);

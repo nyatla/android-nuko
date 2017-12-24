@@ -133,7 +133,7 @@ public class Dialogs {
         openInBrowser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "http://explorer.nekonium.org/tx/" + tx.getTxHash();
+                String url = "http://nekonium.network/tx/" + tx.getTxHash();
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 c.startActivity(i);
