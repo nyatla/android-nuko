@@ -11,8 +11,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eef6f705-4726-4cd8-b418-0cae0fb3edb2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-12-20-12-18-26-451.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-12-20-12-18-26-451.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-12-24-14-30-14-775.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-12-24-14-30-14-775.rawproto" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/fdroid/java/rehanced/com/simplenukowallet/APIKey.java" afterPath="$PROJECT_DIR$/app/src/fdroid/java/org/nekonium/androidnuko/APIKey.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/fdroid/java/rehanced/com/simplenukowallet/activities/AnalyticsApplication.java" afterPath="$PROJECT_DIR$/app/src/fdroid/java/org/nekonium/androidnuko/activities/AnalyticsApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/fdroid/java/rehanced/com/simplenukowallet/fragments/FragmentWallets.java" afterPath="$PROJECT_DIR$/app/src/fdroid/java/org/nekonium/androidnuko/fragments/FragmentWallets.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/fdroid/java/rehanced/com/simplenukowallet/utils/AdRecyclerHolder.java" afterPath="$PROJECT_DIR$/app/src/fdroid/java/org/nekonium/androidnuko/utils/AdRecyclerHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/AddressDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/AddressDetailActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/AppIntroActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/AppIntroActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/AppLockActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/AppLockActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/BasePatternActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/BasePatternActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/QRScanActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/QRScanActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/RequestEtherActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/RequestEtherActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/SecureAppCompatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/SecureAppCompatActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/SendActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/SendActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/SetAppLockActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/SetAppLockActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/SettingsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/SettingsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/SplashActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/WalletGenActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/WalletGenActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/CurrencyEntry.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/CurrencyEntry.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/FullWallet.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/FullWallet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/TokenDisplay.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/TokenDisplay.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/TransactionDisplay.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/TransactionDisplay.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/WalletDisplay.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/WalletDisplay.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/WatchWallet.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/WatchWallet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentChooseRecipient.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentChooseRecipient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentDetailOverview.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentDetailOverview.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentDetailShare.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentDetailShare.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentPrice.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentPrice.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentSend.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentSend.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentTransactions.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentTransactions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentTransactionsAbstract.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentTransactionsAbstract.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentTransactionsAll.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentTransactionsAll.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentWalletsAbstract.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentWalletsAbstract.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/ToSFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/ToSFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/interfaces/AdDialogResponseHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/interfaces/AdDialogResponseHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/interfaces/FingerprintListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/interfaces/FingerprintListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/interfaces/LastIconLoaded.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/interfaces/LastIconLoaded.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/interfaces/NetworkUpdateListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/interfaces/NetworkUpdateListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/interfaces/StorableWallet.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/interfaces/StorableWallet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/network/EtherscanAPI.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/network/EtherscanAPI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/receiver/BootReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/receiver/BootReceiver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/services/NotificationLauncher.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/services/NotificationLauncher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/services/NotificationService.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/services/NotificationService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/services/TransactionService.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/services/TransactionService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/services/WalletGenService.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/services/WalletGenService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/AddressNameConverter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/AddressNameConverter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/AppBarStateChangeListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/AppBarStateChangeListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/AppLockUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/AppLockUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/Blockies.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/Blockies.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/CollapseAnimator.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/CollapseAnimator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/Dialogs.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/Dialogs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/ExchangeCalculator.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/ExchangeCalculator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/ExternalStorageHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/ExternalStorageHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/FingerprintHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/FingerprintHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/Key.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/Key.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/OwnWalletUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/OwnWalletUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/RequestCache.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/RequestCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/ResponseParser.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/ResponseParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/Settings.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/Settings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/TokenAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/TokenAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/TokenIconCache.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/TokenIconCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/TransactionAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/TransactionAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/TxCache.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/TxCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/UniqueNonceGetter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/UniqueNonceGetter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/WalletAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/WalletAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/WalletStorage.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/WalletStorage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/WellKnownAddresses.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/WellKnownAddresses.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/qr/AddressEncoder.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/qr/AddressEncoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/qr/Contents.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/qr/Contents.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/qr/QREncoder.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/qr/QREncoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/views/DontShowNegativeFormatter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/views/DontShowNegativeFormatter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/views/HourXFormatter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/views/HourXFormatter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/views/NonSwipeViewPager.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/views/NonSwipeViewPager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/views/WeekXFormatter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/views/WeekXFormatter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/views/YearXFormatter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/views/YearXFormatter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -22,10 +96,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentTransactionsAbstract.java" afterPath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentTransactionsAbstract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/network/EtherscanAPI.java" afterPath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/network/EtherscanAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/Dialogs.java" afterPath="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/Dialogs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/googleplay/java/rehanced/com/simpleetherwallet/activities/AnalyticsApplication.java" afterPath="$PROJECT_DIR$/app/src/googleplay/java/rehanced/com/simpleetherwallet/activities/AnalyticsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/googleplay/java/rehanced/com/simpleetherwallet/fragments/FragmentWallets.java" afterPath="$PROJECT_DIR$/app/src/googleplay/java/rehanced/com/simpleetherwallet/fragments/FragmentWallets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/googleplay/java/rehanced/com/simpleetherwallet/utils/AdRecyclerHolder.java" afterPath="$PROJECT_DIR$/app/src/googleplay/java/rehanced/com/simpleetherwallet/utils/AdRecyclerHolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/googleplay/res/xml/pref_general.xml" afterPath="$PROJECT_DIR$/app/src/googleplay/res/xml/pref_general.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chooserecepient.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chooserecepient.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -71,31 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -121,44 +177,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3655">
-              <caret line="215" column="43" lean-forward="false" selection-start-line="215" selection-start-column="43" selection-end-line="215" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EtherscanAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/network/EtherscanAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="259" column="59" lean-forward="false" selection-start-line="259" selection-start-column="59" selection-end-line="259" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2465">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-manifest">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="168" column="35" lean-forward="false" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+              <folding>
+                <element signature="e#2264#2293#0" expanded="true" />
+                <element signature="e#3213#3242#0" expanded="true" />
+                <element signature="e#3471#3500#0" expanded="true" />
+                <element signature="e#3722#3751#0" expanded="true" />
+                <element signature="e#3975#4008#0" expanded="true" />
+                <element signature="e#4220#4253#0" expanded="true" />
+                <element signature="e#4481#4514#0" expanded="true" />
+                <element signature="e#4734#4767#0" expanded="true" />
+                <element signature="e#5107#5136#0" expanded="true" />
+                <element signature="e#5394#5423#0" expanded="true" />
+                <element signature="e#5684#5713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrencyEntry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/CurrencyEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FullWallet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/FullWallet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppIntroActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/AppIntroActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>new wa</find>
       <find>new walle</find>
       <find>new wallet</find>
       <find>0</find>
@@ -188,7 +272,11 @@
       <find>bloc</find>
       <find>e</find>
       <find>explorer</find>
+      <find>rehanced.com.simplenukowallet</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -3010,6 +3098,13 @@
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/network/EtherscanAPI.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rehanced/com/androidnuko/data/CurrencyEntry.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/CurrencyEntry.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rehanced/com/nekonium/data/FullWallet.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/FullWallet.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/nekonium/simplenukowallet/test.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/test.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -3032,9 +3127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3085,12 +3177,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simplenukowallet" />
+              <option name="myItemId" value="androidnuko" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3107,11 +3195,11 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simplenukowallet" />
+              <option name="myItemId" value="androidnuko" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="activities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3125,82 +3213,15 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplenukowallet" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-nuko" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplenukowallet" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="receiver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-nuko" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplenukowallet" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android-nuko" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplenukowallet" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -3211,6 +3232,9 @@
     <property name="android.profiler.active" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.nekonium" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="rehanced.com.simplenukowallet.utils" />
     </key>
@@ -3297,7 +3321,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514097023328" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514130293534" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3344,7 +3369,8 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514097023328" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514130293534" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3526,7 +3552,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514097023329" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514130293550" />
       </method>
     </configuration>
     <list size="1">
@@ -3575,6 +3602,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3583,7 +3611,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871288" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34554455" sideWeight="0.32302773" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
@@ -3593,12 +3621,12 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22121535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.4936034" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.48294243" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34554455" sideWeight="0.67963755" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34554455" sideWeight="0.67697227" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3617,41 +3645,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/RequestCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/UniqueNonceGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentWalletsAbstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/ExchangeCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="43" />
-          <folding>
-            <element signature="e#2385#2386#0" expanded="false" />
-            <element signature="e#2426#2427#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentDetailOverview.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentDetailOverview.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-327">
           <caret line="88" column="33" lean-forward="false" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
@@ -3659,42 +3653,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/interfaces/StorableWallet.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/interfaces/StorableWallet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/WalletStorage.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/WalletStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="260" column="31" lean-forward="false" selection-start-line="260" selection-start-column="31" selection-end-line="260" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/WalletGenActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/WalletGenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/Blockies.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/Blockies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-469">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/services/NotificationLauncher.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/services/NotificationLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/services/NotificationService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/services/NotificationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="67" column="83" lean-forward="false" selection-start-line="67" selection-start-column="83" selection-end-line="67" selection-end-column="83" />
@@ -3852,14 +3846,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentChooseRecipient.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentChooseRecipient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="128" column="72" lean-forward="false" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentSend.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentSend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1527">
           <caret line="494" column="39" lean-forward="false" selection-start-line="494" selection-start-column="39" selection-end-line="494" selection-end-column="39" />
@@ -3869,21 +3863,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/AddressNameConverter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/AddressNameConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/Dialogs.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/Dialogs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
           <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/services/TransactionService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/services/TransactionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="141" column="41" lean-forward="false" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
@@ -3891,35 +3885,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentTransactionsAbstract.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentTransactionsAbstract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/TransactionAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/TransactionAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="131" column="46" lean-forward="false" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/data/TransactionDisplay.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/TransactionDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="150" column="30" lean-forward="false" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/AppLockUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/AppLockUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/activities/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="165" selection-end-column="45" />
@@ -3927,19 +3921,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentTransactionsAll.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentTransactionsAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="90" column="221" lean-forward="false" selection-start-line="90" selection-start-column="221" selection-end-line="90" selection-end-column="221" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#4328#4329#0" expanded="false" />
-            <element signature="e#4436#4437#0" expanded="false" />
+            <element signature="e#4231#4232#0" expanded="false" />
+            <element signature="e#4339#4340#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/fragments/FragmentTransactions.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/fragments/FragmentTransactions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="62" column="191" lean-forward="false" selection-start-line="62" selection-start-column="191" selection-end-line="62" selection-end-column="191" />
@@ -3947,7 +3941,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/TxCache.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/TxCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="91" column="48" lean-forward="false" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
@@ -3955,7 +3949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/utils/ResponseParser.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/utils/ResponseParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="108" column="56" lean-forward="false" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
@@ -3972,23 +3966,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-jp/strings.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rehanced/com/simplenukowallet/network/EtherscanAPI.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/network/EtherscanAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
+        <state relative-caret-position="3774">
           <caret line="259" column="59" lean-forward="false" selection-start-line="259" selection-start-column="59" selection-end-line="259" selection-end-column="59" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2465">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -4031,6 +4014,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/CurrencyEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/data/FullWallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/nekonium/androidnuko/activities/AppIntroActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4039,11 +4062,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="321">
+          <caret line="168" column="35" lean-forward="false" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+          <folding>
+            <element signature="e#2264#2293#0" expanded="true" />
+            <element signature="e#3213#3242#0" expanded="true" />
+            <element signature="e#3471#3500#0" expanded="true" />
+            <element signature="e#3722#3751#0" expanded="true" />
+            <element signature="e#3975#4008#0" expanded="true" />
+            <element signature="e#4220#4253#0" expanded="true" />
+            <element signature="e#4481#4514#0" expanded="true" />
+            <element signature="e#4734#4767#0" expanded="true" />
+            <element signature="e#5107#5136#0" expanded="true" />
+            <element signature="e#5394#5423#0" expanded="true" />
+            <element signature="e#5684#5713#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="rehanced.com.simplenukowallet">
+package="org.nekonium.androidnuko">
 
 <supports-screens
     android:largeScreens="true"
@@ -59,12 +59,12 @@ package="rehanced.com.simplenukowallet">
     android:icon="@mipmap/ic_launcher"
     android:label="@string/app_name"
     android:supportsRtl="true"
-    android:name="rehanced.com.simplenukowallet.activities.AnalyticsApplication"
+    android:name="org.nekonium.androidnuko.activities.AnalyticsApplication"
     android:largeHeap="true"
     android:theme="@style/AppTheme">
 
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.SplashActivity"
+        android:name="org.nekonium.androidnuko.activities.SplashActivity"
         android:label="@string/title_activity_main"
         android:configChanges="orientation|screenSize"
         android:theme="@style/SplashTheme">
@@ -75,7 +75,7 @@ package="rehanced.com.simplenukowallet">
         </intent-filter>
     </activity>
     <!--        <activity
-            android:name="rehanced.com.simplenukowallet.activities.MainActivity"
+            android:naorg.nekonium.simplenukowalletllet.activities.MainActivity"
             android:label="@string/title_activity_main"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar">
@@ -88,56 +88,56 @@ package="rehanced.com.simplenukowallet">
 -->
 
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.MainActivity"
+        android:name="org.nekonium.androidnuko.activities.MainActivity"
         android:label="@string/title_activity_main"
         android:configChanges="orientation|screenSize"
         android:theme="@style/AppTheme.NoActionBar" />
 
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.AddressDetailActivity"
+        android:name="org.nekonium.androidnuko.activities.AddressDetailActivity"
         android:label="@string/title_activity_main"
         android:configChanges="orientation|screenSize"
         android:theme="@style/AppTheme.NoActionBar2" />
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.QRScanActivity"
+        android:name="org.nekonium.androidnuko.activities.QRScanActivity"
         android:label="@string/title_activity_main"
         android:configChanges="orientation|screenSize"
         android:theme="@style/AppTheme.NoActionBar2" />
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.SettingsActivity"
+        android:name="org.nekonium.androidnuko.activities.SettingsActivity"
         android:label="@string/title_activity_settings"
         android:configChanges="orientation|screenSize"
         android:theme="@style/AppTheme" />
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.WalletGenActivity"
+        android:name="org.nekonium.androidnuko.activities.WalletGenActivity"
         android:label="@string/title_activity_settings"
         android:configChanges="orientation|screenSize"
         android:theme="@style/AppTheme.NoActionBar2" />
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.RequestEtherActivity"
+        android:name="org.nekonium.androidnuko.activities.RequestEtherActivity"
         android:label="@string/title_activity_settings"
         android:configChanges="orientation|screenSize"
         android:theme="@style/AppTheme.NoActionBar2" />
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.SendActivity"
+        android:name="org.nekonium.androidnuko.activities.SendActivity"
         android:label="@string/title_activity_settings"
         android:configChanges="orientation|screenSize"
         android:windowSoftInputMode="stateHidden|adjustResize"
         android:theme="@style/AppTheme.NoActionBar2" />
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.AppIntroActivity"
+        android:name="org.nekonium.androidnuko.activities.AppIntroActivity"
         android:theme="@style/AppTheme.NoActionBar2"
         android:label="@string/title_activity_main" />
 
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.AppLockActivity"
+        android:name="org.nekonium.androidnuko.activities.AppLockActivity"
         android:theme="@style/AppTheme.NoActionBar2"
         android:configChanges="orientation"
         android:screenOrientation="portrait"
         android:label="@string/title_activity_main" />
 
     <activity
-        android:name="rehanced.com.simplenukowallet.activities.SetAppLockActivity"
+        android:name="org.nekonium.androidnuko.activities.SetAppLockActivity"
         android:theme="@style/AppTheme.NoActionBar2"
         android:configChanges="orientation"
         android:screenOrientation="portrait"
@@ -149,7 +149,7 @@ package="rehanced.com.simplenukowallet">
     </activity>
 
     <receiver
-        android:name="rehanced.com.simplenukowallet.receiver.BootReceiver"
+        android:name="org.nekonium.androidnuko.receiver.BootReceiver"
         android:enabled="true"
         android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
         <intent-filter>
@@ -161,14 +161,14 @@ package="rehanced.com.simplenukowallet">
     </receiver>
 
     <service
-        android:name="rehanced.com.simplenukowallet.services.NotificationService"
+        android:name="org.nekonium.androidnuko.services.NotificationService"
         android:exported="false" />
 
     <service
-        android:name="rehanced.com.simplenukowallet.services.WalletGenService"
+        android:name="org.nekonium.androidnuko.services.WalletGenService"
         android:exported="false" />
     <service
-        android:name="rehanced.com.simplenukowallet.services.TransactionService"
+        android:name="org.nekonium.androidnuko.services.TransactionService"
         android:exported="false" />
 </application>
 

@@ -1,4 +1,4 @@
-package rehanced.com.simplenukowallet.activities;
+package org.nekonium.androidnuko.activities;
 
 import android.app.Application;
 import android.content.Context;
@@ -8,7 +8,7 @@ import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
-import rehanced.com.simplenukowallet.R;
+import org.nekonium.androidnuko.R;
 
 public class AnalyticsApplication extends Application {
     private Tracker mTracker;

@@ -34,7 +34,7 @@
         <PreferenceScreen android:title="@string/prefs_set_pw"
             android:summary="@string/prefs_set_pw_sum">
 
-            <intent android:action="rehanced.com.simplenukowallet.activities.SetAppLockActivity" />
+            <intent android:action="org.nekonium.androidnuko.activities.SetAppLockActivity" />
         </PreferenceScreen>
     </PreferenceCategory>
 

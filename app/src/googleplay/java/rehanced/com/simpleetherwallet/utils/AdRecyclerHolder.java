@@ -1,4 +1,4 @@
-package rehanced.com.simplenukowallet.utils;
+package org.nekonium.androidnuko.utils;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,7 +8,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
-import rehanced.com.simplenukowallet.R;
+import org.nekonium.androidnuko.R;
 
 /**
  * Created by Manuel on 12.11.2017.
