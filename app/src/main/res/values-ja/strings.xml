@@ -35,13 +35,13 @@
     <string name="pref_description_social_recommendations">Nukoがない時コントラクトを隠すかどうか</string>
 
 
-    <string name="pref_title_start">デフォルトタブのウォレット</string>
-    <string name="pref_sum_start">有効にすると、アプリは価格タブではなくウォレットタブで開始されるようになります</string>
+    <string name="pref_title_start">ウォレットのデフォルトタブ</string>
+    <string name="pref_sum_start">有効にすると、アプリ開始時に価格タブではなくウォレットタブが表示されます</string>
 
     <string name="pref_header_data_sync">データの同期</string>
 
-    <string name="pref_title_sync_frequency">同期通知</string>
-    <string name="pref_sum_sync_frequency">新しいトランザクション確認の同期間隔</string>
+    <string name="pref_title_sync_frequency">通知の同期間隔（なんとなく通知間隔っぽい気がする）</string>
+    <string name="pref_sum_sync_frequency">トランザクションの同期間隔</string>
 
     <string name="pref_currencys_title">通貨の表示</string>
     <string-array name="pref_currencys">
@@ -83,8 +83,8 @@
 
     <string name="pref_header_notifications">通知</string>
 
-    <string name="pref_title_new_message_notifications">取引収入</string>
-    <string name="pref_title_new_message_notifications_sum">ウォレットへ収入があったとき通知する</string>
+    <string name="pref_title_new_message_notifications">着nukoの通知</string>
+    <string name="pref_title_new_message_notifications_sum">ウォレットへ着nukoがあったとき通知する</string>
 
     <string name="pref_title_ringtone">着信音</string>
     <string name="pref_ringtone_silent">ミュート</string>
@@ -114,7 +114,7 @@
     <string name="choose_gas">取引コスト</string>
 
 
-    <string name="request_activity_ether">要求量</string>
+    <string name="request_activity_ether">請求量</string>
     <string name="request_activity_to">あなたのウォレット / アドレス</string>
 
     <string name="no_tx_history">これは送受信された全てのNukoの取引の概要を表示しています．ウォレットを追加してNukoを転送後、その取引と今後すべての取引がここに表示されます</string>
@@ -126,8 +126,8 @@
     <string name="app_intro_please_agree">利用規約を読んで同意してください</string>
     <string name="app_intro_iagree">利用規約に同意します</string>
     <string name="fragment_send_ether_amount">金額</string>
-    <string name="fragment_send_cheaper">Cheaper</string>
-    <string name="fragment_send_faster">Faster</string>
+    <string name="fragment_send_cheaper">手数料を安くする</string>
+    <string name="fragment_send_faster">速く送る</string>
     <string name="fragment_send_total">合計</string>
     <string name="fragment_send_send_button">送信</string>
     <string name="fragment_recipient_hint_address">アドレス</string>
@@ -238,14 +238,14 @@
     <string name="website">Nekonium ウェブサイト</string>
     <string name="add">追加</string>
     <string name="show">見る</string>
-    <string name="setting_erc_qr_encoding">Use ERC-67 QR Encoding</string>
-    <string name="setting_cat_advanced">高度な</string>
-    <string name="password_in_clear_text">透明な文字でパスワードを表示する</string>
+    <string name="setting_erc_qr_encoding">ERC-67 QR Encodingを使う</string>
+    <string name="setting_cat_advanced">高度なオプション</string>
+    <string name="password_in_clear_text">パスワードを表示する</string>
 
     <string name="dialog_write_down_pw_title">重要！</string>
     <string name="dialog_write_down_pw_text">Nukoの安全を保つため、お客様のウォレットにパスワードを入力して暗号化します。パスワードはウォレットのロックを解除してNukoを使用する唯一の方法なので、忘れないようにしてください！パスワードは忘れないようメモしておくのがおすすめです</string>
     <string name="dialog_back_button">キャンセル</string>
-    <string name="setting_show_ad">Display Ads</string>
+    <string name="setting_show_ad">広告の表示</string>
 
     <string name="dialog_disable_ad_title">:(</string>
     <string name="dialog_disable_ad_text">私たちはLunaryを改善するために積極的に活動しています。活動は寄付と広告収入に大きく依存しています。あなたにとって広告が本当に煩わしいということを理解していますが、あまりに問い合わせが多くなればNekoniumをより良くするためにあなたの考え方を変えたいと思っています。この小さなバナーは本当に私たちを助けてくれるし、私たちが受け取る全ての寄付についても同様です。バナーの有効にしておくか、小さな寄付を考えてはいただけないでしょうか。新しい設定を有効にするには、アプリを再起動する必要があります。続けますか？</string>
