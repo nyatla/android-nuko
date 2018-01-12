@@ -40,7 +40,7 @@
 
     <string name="pref_header_data_sync">データの同期</string>
 
-    <string name="pref_title_sync_frequency">同期間隔</string>
+    <string name="pref_title_sync_frequency">通知同期間隔</string>
     <string name="pref_sum_sync_frequency">トランザクションの同期間隔</string>
 
     <string name="pref_currencys_title">通貨単位</string>
@@ -240,7 +240,7 @@
     <string name="show">見る</string>
     <string name="setting_erc_qr_encoding">ERC-67 QR Encodingを使う</string>
     <string name="setting_cat_advanced">高度なオプション</string>
-    <string name="password_in_clear_text">透明な文字でパスワードを表示する</string>
+    <string name="password_in_clear_text">パスワードを表示する</string>
 
     <string name="dialog_write_down_pw_title">重要！</string>
     <string name="dialog_write_down_pw_text">Nukoの安全を保つため、お客様のウォレットにパスワードを入力して暗号化します。パスワードはウォレットのロックを解除してNukoを使用する唯一の方法なので、忘れないようにしてください！パスワードは忘れないようメモしておくのがおすすめです</string>
