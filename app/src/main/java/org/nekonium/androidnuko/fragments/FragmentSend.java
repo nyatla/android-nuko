@@ -71,7 +71,7 @@ public class FragmentSend extends Fragment {
     private Spinner spinner;
     private Spinner currencySpinner;
     private boolean amountInEther = true;
-    private BigInteger gaslimit = new BigInteger("21000");
+    private BigInteger gaslimit = new BigInteger("100000");
     private BigDecimal curAvailable = BigDecimal.ZERO;
     private BigDecimal curTxCost = new BigDecimal("0.000252");
     private BigDecimal curAmount = BigDecimal.ZERO;
@@ -217,7 +217,7 @@ public class FragmentSend extends Fragment {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if ((amount.getText().length() <= 0 || new BigDecimal(amount.getText().toString()).compareTo(new BigDecimal("0")) <= 0) && data.getText().length() <= 0) {
+                if ((amount.getText().length() <= 0 || new BigDecimal(amount.getText().toString()).compareTo(new BigDecimal("0")) < 0) && data.getText().length() <= 0) {
                     ac.snackError(getString(R.string.err_send_noamount));
                     return;
                 }
@@ -368,6 +368,7 @@ public class FragmentSend extends Fragment {
 
     private void getEstimatedGasPriceLimit() {
         try {
+            /*
             EtherscanAPI.getInstance().getGasLimitEstimate(toAddress.getText().toString(), new Callback() {
                 @Override
                 public void onFailure(Call call, IOException e) {
@@ -381,14 +382,17 @@ public class FragmentSend extends Fragment {
                             @Override
                             public void run() {
                                 userGasLimit.setText(gaslimit + "");
+
                             }
                         });
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
-            });
-        } catch (IOException e) {
+            });*/
+            userGasLimit.setText(100000 + "");//api on nekonium.network for get gaslimit estimate is not available yet.
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
