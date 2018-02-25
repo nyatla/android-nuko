@@ -3,7 +3,7 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 26
     buildToolsVersion '26.0.2'
     flavorDimensions "default"
     defaultConfig {
@@ -11,7 +11,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 25
-        versionName "1.34"
+        versionName "1.35"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
